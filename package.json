@@ -1,0 +1,22 @@
+{
+  "name": "rec-info",
+  "version": "1.0.0",
+  "description": "It's a proyect like Google",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "rodres, douglas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "mongoose": "^5.5.13",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
