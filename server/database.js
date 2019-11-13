@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-const URI = 'mongodb://localhost/rec-inf';//si no existe mongo lo creara por mi
+const URI = 'mongodb://localhost/rec-inf';
 
 mongoose.connect(URI)
 	.then(db => console.log("Db is connected"))
-	.catch(err => console.error(err));//promesa
+	.catch(err => console.error(err));
 
 module.exports = mongoose;
